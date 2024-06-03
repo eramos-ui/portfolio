@@ -8,7 +8,7 @@ export const Footer = () => {
          >
            <div className="flex items-center text-sm text-black dark:text-white">
             <span>® 2024</span>
-            <a href="https://github.com/eramos-ui/miportafolio.git" className="ml-2 flex items-center hover:underline">
+            <a href="https://github.com/eramos-ui/portfolio.git" className="ml-2 flex items-center hover:underline">
               <GitHubIcon className="w-5 h-5 mr-1" />
               Este portafolio
             </a>

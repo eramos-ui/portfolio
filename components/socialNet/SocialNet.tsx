@@ -13,7 +13,7 @@ const SocialNet: React.FC = ( ) => {
         className="mr-2"
         />
         <SocialPellet 
-        href="https://github.com/tu-usuario-github" 
+        href="https://github.com/eramos-ui/portfolio.git" 
         icon={<GitHubIcon className="size-4 md:size-6 mr-1" />} 
         name="GitHub" 
         className="mr-2"
