@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+  html {
+    font-family: system-ui, sans-serif;
+  }
+  body {
+    background: #050505;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh; /* Este centrará el alto de la página */
+    scroll-behavior: smooth;
+  }
+
+  .email-icon {
+    fill: white;
+  }
+}
+
+@media (prefers-reduce-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Estilos globales para modo claro */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+.text-light {
+  color: #000000;
+}
+.text-dark {
+  color: #ffffff;
+}
+.text-navbar {
+  color:#000000
+}
+.text-description {
+  color:#000000
+}
+.text-amarillo {
+  color: #000000; /* Color para modo claro */
+}
+.email-icon {
+  fill: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .text-light {
+    color: #ffffff;
+  }
+  .text-dark {
+    color: #000000;
+  }
+  .text-navbar {
+    color:#000000
+  } 
+  .text-description {
+    color:white
+  }
+  .text-amarillo {
+    color: #FFD700; /* Color amarillo para modo oscuro */
+  }
+
+  .email-icon {
+    fill: white;
+  }
+}
+
+/* Estilos específicos para componentes */
+.light-mode .project-list {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .project-list {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
