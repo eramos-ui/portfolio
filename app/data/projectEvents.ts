@@ -105,5 +105,56 @@ export const projectEvents:Project[] =[
         Para la orquestación del proceso de cálculo, se utilizó Pentaho, y para mostrar el detalle del cálculo a cada sostenedor, se desarrolló una aplicación web en Java.
         `,
         tags:[Tags.MSSQL],
+    },
+    {
+      id:'5',
+      title: 'ERP para Municipalidades',
+      role: 'Diseñador y constructor',
+      description: `Diseñé e implementé una conjunto de sistemas para una Municipalidad. 
+      Estos sistemas incluian: Activo fijo, Bodega, Remuneraciones (Diferentes legislaciones: Eduación, Salud y Municipal)
+      Bienestar, Licencias médicas, Bodega, Asistencia Social, Información Laboral (OMIL), Obras Municipales,
+      Contabilidad Gubernamental, Patentes comerciales, Adquisiciones, Permisos de circulación, Licencias de conducir.`,
+      link: '',
+      github:'',
+      image:'',
+      details:`Trabajé para una empresa que daba servicios informáticos a municipalidades.
+      El proyecto consistía en reemplazar sistemas hechos en plataforma cliente-servidor 
+      que también yo había diseñado y construído, llevándolos a plataforma web consumiendo web-services.
+      
+      Para ello utilicé una herramienta fabricada por una empresa asociada que me aportó 
+      ésta para diseñar y ejecutar formularios que se armaban a partir de declarar sus campos 
+      los cuales se registraban en tablas en una Base de Datos.
+
+      Adicionalemnte, utilicé una herramienta de workflow que permitía diseñar y luego ejecutar
+      flujos de trabajo cuyas actividades tenían asociado un formulario para su ejecución. 
+      Esto fue especialmente útil en la ejecución de procesos en que los participantes eran 
+      de diversas unidades como es el caso de Adquisiciones, OMIL y Atención social.      
+      `,
+      tags:[Tags.CSHARP,Tags.MSSQL],
+    },
+    {
+      id:'6',
+      title: 'Sistema contable',
+      role: 'Diseñador ',
+      description: `Diseñé y dirigi la construcción de un sistema de contabilidad para un conjunto de más
+      de 40 empresas de una holding. 
+      `,
+      link: '',
+      github:'',
+      image:'',
+      details:`El objetivo del proyecto era reemplazar un sistema existente que no consideraba la centuria en las fechas. 
+      
+      Fui contratado inicialmente para evaluar el fracaso de una empresa extranjera que intentó instalar su ERP. Luego, me solicitaron acompañar a los usuarios en la selección de un ERP del mercado. 
+      Cuando los usuarios declararon su inconformidad con los sistemas revisados se me pidió diseñar una solución que satisfaciera a todos.
+
+      Mi trabajo consisitió entonces, en diseñar una solución en que en los parámetros de 
+      configuración considerara todas las empresas del holding.
+
+      Teníamos como plazo perentorio acotado por el cambio de milenio. Armé un equipo de 
+      unas 50 personas que incluía usuarios claves de todas las empresas y una decena de técnicos TI.
+
+      El proyecto fue exitoso al punto que la holding creo una nueva empresa para comercializar el sistema. 
+      `,
+      tags:[Tags.MSSQL],
     }
 ]

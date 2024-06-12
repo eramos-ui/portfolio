@@ -2,7 +2,7 @@ import GitHubIcon from "../icons/GitHub";
 
 export const Footer = () => {
   return (
-    <>
+    <> 
       <footer className="opacity-90 m-4 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center">
          <div className="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"
          >

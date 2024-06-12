@@ -23,7 +23,7 @@ const SocialNet: React.FC = ( ) => {
          icon={<EmailIcon className="size-4 md:size-6 mr-1" />} 
          name="eramosarellano@gmail.com"
          className="mr-2"
-         />
+         /> 
     </>
     );
 }
