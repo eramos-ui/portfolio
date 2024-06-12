@@ -37,7 +37,7 @@ export const experienceEvents: Experience[] =[
         date: 'Año 2018 - 2020',
         title: 'Aplicación para la selección de proyectos sociales',
         role: 'Diseñador y constructor',
-        description: `Aplicación (privada) en que se cubrió el proceso de postulación de proyectos. 
+        description: `Aplicación (privada) para el proceso de postulación de proyectos. 
         El proceso contiene varias etapas, en las cuales los postulantes presentan sus proyectos y una comisión evaluadora selecciona los que pasan a la siguiente etapa.
         `,
         link: ''
@@ -48,7 +48,7 @@ export const experienceEvents: Experience[] =[
         title: 'Rediseño del sistema del Ministerio de Educación para pagar las subvenciones escolares del sector público de Chile.',
         role: 'Jefe de proyecto y desarrollador SQL',
         description: `Este proyecto abordó la sustitución del sistema existente para el pago de las subvenciones a sostenedores de la educación pública.
-        Involucra el pago mensual de alrededor de US$ 700 millones, para 10.000 establecimientos educacionales. 
+        Involucra el pago mensual de alrededor de US$ 700 millones, distribuidos en 10.000 establecimientos educacionales. 
         Dirigí un equipo de 50 profesionales.   
         `,
         link: ''

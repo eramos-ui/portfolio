@@ -22,18 +22,19 @@ export const projectEvents:Project[] =[
         id:'1',
         title: 'Gestión de Ventas y de planificación de la Producción',
         role: 'Diseñador y constructor',
-        description: 'Implementé un sistema para programar las máquinas que se emplean en el proceso productivo. Abarcó cerca de 20 máquinas en un diseño tipo calendario para evitar sobreocupación de estas.',
+        description: `Implementé un sistema para programar las máquinas que se emplean en el proceso productivo. Abarcó cerca de 20 máquinas en un diseño tipo calendario para evitar sobreocupación de estas.
+        Fue necesario incluir el proceso de ventas-cotización.`,
         link: '',
         github:'',
         image:'/images/workflow.png',
         details: `En este proyecto, desarrollé una aplicación web para la gestión de tareas. 
         Incorporé funcionalidades claves como la autenticación de usuarios, la creación y asignación de tareas mediante una herramienta de workflow, y la integración con API RESTful. 
 
-        El Workflow empleado también fue contruido por mí, incuida una interfaz gráfica de diseño, ello facilitó el poder ajustar el mapa del proceso según los requerimientos del cliente.
+        El Workflow empleado también fue construido por mí, incluida una interfaz gráfica de diseño, ello facilitó el poder ajustar el mapa del proceso según los requerimientos del cliente.
 
         La solución incluyó módulos de cotización-ventas y programación de la producción.
 
-        Para cotizar diseñé un modelamiento de la producción que es una solución genérica que resuelve cualquier proceso productivo. Considera el conjunto de etapas
+        Para cotizar diseñé el modelamiento de la producción que es una solución genérica que resuelve cualquier proceso productivo. Considera el conjunto de etapas
          con las que se fabrica una pieza y los costos asociados a cada una definidos como: materiales, maquinaria y mano de obra.
 
         Investigué y seleccioné una biblioteca que proporcionara a la hoja de programación de máquinas una apariencia similar al calendario de Gmail, permitiendo a los usuarios agendar tareas de manera intuitiva. Colaboré en el diseño con un equipo para asegurar una experiencia de usuario óptima. 
@@ -45,17 +46,17 @@ export const projectEvents:Project[] =[
         id:'2',
         title: 'Aplicación para la selección de proyectos sociales',
         role: 'Diseñador y constructor',
-        description: `Este sistema es para seleccionar proyectos que presentar organizaciones del ámbito solcial.
+        description: `Este sistema es para seleccionar proyectos que presentan organizaciones del ámbito social.
         Se presentan más de 100 postulantes en un proceso de varias etapas que permiten a los evaluadores asignar puntaje para ir filtrando los proyectos elegidos.`,
         link: '',
         github:'',
         image:'',
-        details:`Diseñe y construí este sistema para seleccionar proyectos sociales que presentan organizaciones sin fines de lucro a fundación especializada en financiamiento de obras sociales.
+        details:`Diseñé y construí este sistema para seleccionar proyectos sociales que presentan organizaciones sin fines de lucro a una fundación especializada en financiamiento de obras sociales.
         
-        Se presentan más de 100 organizaciones con sus proyectos , y se considera un proceso de varias etapas que permiten a los evaluadores asignar puntaje para ir filtrando a los proyectos que finalmente son elegidos. 
-        El sistema incluía calendarios opara agendar entrevistas y presentaciones de los postulantes.
+        Se presentan más de 100 organizaciones con sus proyectos, y se considera un proceso de varias etapas que permiten a los evaluadores asignar puntaje para ir filtrando los proyectos que finalmente son elegidos. 
+        El sistema incluía calendarios para agendar entrevistas y presentaciones de los postulantes.
 
-        Trabajamos en el levantamiento de requerimiento en múltiples sesiones con los usuarios expertos.
+        Trabajamos en el levantamiento de requerimientos en múltiples sesiones con los usuarios expertos.
          `,
         tags:[Tags.CSHARP,Tags.BOOSTRAP,Tags.MSSQL],
     },
@@ -63,7 +64,7 @@ export const projectEvents:Project[] =[
       id:'3',
       title: 'Aplicación para la administración de gastos de un condominio',
       role: 'Diseñador y constructor',
-      description: `Diseñé e implementé un sistema para la administración los ingresos y gastos de un condominio de casas. 
+      description: `Diseñé e implementé un sistema para la administración de los ingresos y gastos de un condominio de casas. 
       Consideré dos tipos de gastos e ingresos: habituales y extraordinarios. 
       El software entrega la información de la situación de cada casa.`,
       link: '',
@@ -83,7 +84,7 @@ export const projectEvents:Project[] =[
         title: 'Rediseño del sistema del Ministerio de Educación para pagar las subvenciones escolares del sector público de Chile',
         role: 'Jefe de proyecto y desarrollador SQL',
         description: `Este proyecto abordó la sustitución del sistema existente para el pago de las subvenciones a sostenedores de la educación pública de Chile.
-        Involucra el pago mensual de alrededor de US$ 700 millones, con sobre 10.000 establecimientos educacionales. 
+        Involucra el pago mensual de alrededor de US$ 700 millones, para cerca de 10.000 establecimientos educacionales. 
         Dirigí un equipo formado por cerca de 50 profesionales.
         `,
         link: '',
@@ -110,8 +111,8 @@ export const projectEvents:Project[] =[
       id:'5',
       title: 'ERP para Municipalidades',
       role: 'Diseñador y constructor',
-      description: `Diseñé e implementé una conjunto de sistemas para una Municipalidad. 
-      Estos sistemas incluian: Activo fijo, Bodega, Remuneraciones (Diferentes legislaciones: Eduación, Salud y Municipal)
+      description: `Diseñé e implementé un conjunto de sistemas para una Municipalidad. 
+      Estos sistemas incluían: Activo fijo, Bodega, Remuneraciones (Diferentes legislaciones: Educación, Salud y Municipal)
       Bienestar, Licencias médicas, Bodega, Asistencia Social, Información Laboral (OMIL), Obras Municipales,
       Contabilidad Gubernamental, Patentes comerciales, Adquisiciones, Permisos de circulación, Licencias de conducir.`,
       link: '',
@@ -119,13 +120,9 @@ export const projectEvents:Project[] =[
       image:'',
       details:`Trabajé para una empresa que daba servicios informáticos a municipalidades.
       El proyecto consistía en reemplazar sistemas hechos en plataforma cliente-servidor 
-      que también yo había diseñado y construído, llevándolos a plataforma web consumiendo web-services.
-      
-      Para ello utilicé una herramienta fabricada por una empresa asociada que me aportó 
-      ésta para diseñar y ejecutar formularios que se armaban a partir de declarar sus campos 
-      los cuales se registraban en tablas en una Base de Datos.
+      que también yo había diseñado y construido, llevándolos a plataforma web consumiendo web-services.
 
-      Adicionalemnte, utilicé una herramienta de workflow que permitía diseñar y luego ejecutar
+      Utilicé una herramienta de workflow que permitía diseñar y luego ejecutar
       flujos de trabajo cuyas actividades tenían asociado un formulario para su ejecución. 
       Esto fue especialmente útil en la ejecución de procesos en que los participantes eran 
       de diversas unidades como es el caso de Adquisiciones, OMIL y Atención social.      
@@ -136,8 +133,8 @@ export const projectEvents:Project[] =[
       id:'6',
       title: 'Sistema contable',
       role: 'Diseñador ',
-      description: `Diseñé y dirigi la construcción de un sistema de contabilidad para un conjunto de más
-      de 40 empresas de una holding. 
+      description: `Diseñé y dirigí la construcción de un sistema de contabilidad para un conjunto de más
+      de 40 empresas de una holding del sector naviero. 
       `,
       link: '',
       github:'',
@@ -145,15 +142,15 @@ export const projectEvents:Project[] =[
       details:`El objetivo del proyecto era reemplazar un sistema existente que no consideraba la centuria en las fechas. 
       
       Fui contratado inicialmente para evaluar el fracaso de una empresa extranjera que intentó instalar su ERP. Luego, me solicitaron acompañar a los usuarios en la selección de un ERP del mercado. 
-      Cuando los usuarios declararon su inconformidad con los sistemas revisados se me pidió diseñar una solución que satisfaciera a todos.
+      Cuando los usuarios declararon su inconformidad con los sistemas revisados se me pidió diseñar una solución que satisficiera a todos.
 
-      Mi trabajo consisitió entonces, en diseñar una solución en que en los parámetros de 
+      Mi trabajo consistió entonces, en diseñar una solución en que en los parámetros de 
       configuración considerara todas las empresas del holding.
 
       Teníamos como plazo perentorio acotado por el cambio de milenio. Armé un equipo de 
       unas 50 personas que incluía usuarios claves de todas las empresas y una decena de técnicos TI.
 
-      El proyecto fue exitoso al punto que la holding creo una nueva empresa para comercializar el sistema. 
+      El proyecto fue exitoso al punto que la holding creó una nueva empresa para comercializar el sistema. 
       `,
       tags:[Tags.MSSQL],
     }
